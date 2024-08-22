@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #eee;
+    }
+
+    .card {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        line-height: 300px;
+        margin: -150px;
+        background: white;
+        color: #03446A;
+        text-align: center;
+        font-size: 40px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+        /* animation-name: abc;
+       animation-duration: 2s;               { duration is compulsory }
+       animation-iteration-count: infinite;  {To repeat animation infinite times}
+       animation-direction: alternate;       {To make animation smooth} */
+
+        animation: abc 2s infinite alternate;
+
+    }
+
+    @keyframes abc {
+        0% {                         /* what we write here we already set these properties above , so it is not necessary to write these again but to make our code understable like what we are doing, we write them here also */  
+            background: white;    
+            color: #03446A;
+            border-radius: 0%;
+        }
+
+        /* 25% {border-radius: 10%; background-color:red;} */
+
+        100% {
+            border-radius: 50%;
+            background-color: blue;
+            color: white;
+        }
+    }
+</style>
+
+<body>
+    <div class="card">
+        pninfosys
+    </div>
+</body>
+
+</html>

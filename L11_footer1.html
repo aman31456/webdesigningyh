@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .footer-content{
+         background-color: black;
+         color: white;
+         font-family: system-ui;
+         position: absolute;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         padding: 80px 80px 40px 99px;
+    }
+    .items li{
+        list-style-type: none;
+    }
+    .items a{
+        text-decoration: none;
+        color: white;
+    }
+    .footer-content .logo{
+        margin-bottom: 44px;
+    }
+    .footer-content .items{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 0));
+        gap: 5rem;
+        margin-bottom: 85px;
+    }
+    .footer-content .copyright{
+        display: flex;
+        justify-content: space-between;
+    }
+    .items h4{
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+</style>
+<body>
+    <div class="footer-content">
+        <div class="logo">
+            <img src="image/foodpanda_logo_2023.svg" alt="">
+        </div>
+        <div class="items">
+            <div class="item1">
+                <h4>Navigate</h4>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Newsroom</a></li>
+            </div>
+            <div class="item2">
+                <h4>collaborate</h4>
+                <li><a href="">Explore Carrers</a></li>
+                <li><a href="">Become a rider</a></li>
+                <li><a href="">Try panda ads</a></li>
+                <li><a href="">Feed your team</a></li>
+            </div>
+        </div>
+        <div class="copyright">
+            <div>Copyright c 2024 foodpanda</div>
+            <div>Privacy Policy</div>
+        </div>
+    </div>
+</body>
+</html>

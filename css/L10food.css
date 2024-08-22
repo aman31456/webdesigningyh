@@ -1,0 +1,242 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+nav .menu a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    font-family:monospace ;
+    color: #ff2b85;
+    margin: 0px 13px;
+}
+nav .menu button{
+    background-color: #ff2b85;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: none;
+}
+.banner{
+    /* background: url(../image/about-foodpanda-1920x539.jpeg); */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(../image/about-foodpanda-1920x539.jpeg);
+    height: 500px;
+    width: 100%;
+    margin-top: 60px;
+    background-position: center;
+    background-size: cover;
+}
+.banner h1{
+    text-align: center;
+    font-size: 65px;
+    background-color: #ff2b8587;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    top: 140px;
+    margin: auto;
+    width: 30%;
+}
+.banner input{
+    width: 600px;
+    height: 40px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    position: relative;
+    top: 180px;
+}
+::placeholder{
+    color: white;
+}
+.news{
+    height: 50px;
+    width: 100%;
+    background-color: #ff2b85;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 3px 3px 3px black;
+    padding: 7px;
+}
+.about{
+    text-align: center;
+    padding: 80px;
+    height: 400px;
+    width: 100%;
+}
+.about h3{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: arial;
+    letter-spacing: 3px;
+    margin-bottom: 13px;
+}
+.about p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 26px;
+    font-family: arial;
+    margin-bottom: 13px;
+}
+.about button{
+    padding: 13px 48px;
+    font-size: 16px;
+    color: white;
+    background: #ff2b85;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.press{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/food\ panda\ rider.jpeg");
+    background-color: aquamarine;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 200px;
+    font-family: monospace;
+    background-attachment: fixed;
+}
+.press h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(252, 253, 255);
+}
+.press p{
+    letter-spacing: 1px;
+    color: white;
+    word-spacing: 1px;
+    line-height: 26px;
+    font-family: arial;
+    margin-bottom: 13px;
+}
+.press button{
+    padding: 13px 48px;
+    font-size: 16px;
+    color: white;
+    background: #ff2b85;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.team{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/foodpanda-press.jpeg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 200px;
+    font-family: monospace;
+    background-attachment: fixed;
+
+}
+.team h3{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+.team p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: white;
+    line-height: 26px;
+    font-family: arial;
+    margin-bottom: 13px;
+}
+.team button{
+    padding: 13px 48px;
+    font-size: 16px;
+    color: white;
+    background: #ff2b85;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.contact{
+    background-color:white;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 200px;
+    font-family: monospace;
+}
+.contact h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.contact p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 26px;
+    font-family: arial;
+    margin-bottom: 13px;
+}
+.contact button{
+    padding: 13px 48px;
+    font-size: 16px;
+    color: white;
+    background: #ff2b85;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color: rgb(85, 69, 72);
+}
+.footer-content{
+    background-color: black;
+    color: white;
+    font-family: system-ui;
+    padding: 80px 80px 55px 99px;
+}
+.items li{
+   list-style-type: none;
+}
+.items a{
+   text-decoration: none;
+   color: white;
+}
+.footer-content .logo{
+   margin-bottom: 44px;
+}
+.footer-content .items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0));
+    gap: 5rem;
+    margin-bottom: 85px;
+}
+.footer-content .copyright{
+   display: flex;
+   justify-content: space-between;
+}
+.items h4{
+   margin-bottom: 10px;
+   font-size: 1.2rem;
+}
